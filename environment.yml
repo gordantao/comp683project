@@ -1,0 +1,19 @@
+name: comp683
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - scanpy
+  - python-igraph
+  - leidenalg
+  - jupyterlab
+  - pip:
+      - harmonypy
+      - bbknn
